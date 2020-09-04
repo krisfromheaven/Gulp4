@@ -1,12 +1,13 @@
 Gulp 4 
 ======
 
-h3 For use:
+### For use:
 
 .1 npm install (This command installs  any packages that it depends on.)
+
 .2 gulp (default command for initialization)
 
-h3 Packages:
+###Packages:
 
 ```js
 const {src, dest, series, watch} = require('gulp')
