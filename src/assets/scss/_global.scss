@@ -1,0 +1,60 @@
+//variable
+$maxWidth: 900;
+
+
+// container
+.container {
+	width: 100%;
+	max-width: $maxWidth + px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+// Global
+
+body {
+
+}
+html {
+	box-sizing: border-box;
+	font-size: 10px;
+}
+
+html,
+body {
+	height: 100%;
+	position: relative;
+	padding: 0;
+	background: 0;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+ul,
+ol,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+li {
+	list-style-type: none;
+}
+button:focus,
+input:focus {
+	outline: transparent;
+}
+
