@@ -7,7 +7,7 @@ Gulp 4
 
 .2 gulp (default command for initialization)
 
-###Packages:
+### Packages:
 
 ```js
 const {src, dest, series, watch} = require('gulp')
